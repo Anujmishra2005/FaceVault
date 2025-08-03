@@ -34,6 +34,7 @@ def login_user(logger):
     if not encodings:
         print("[ERROR] No face found.")
         return
+        
     match = face_recognition.compare_faces(known_encodings, encodings[0])
     if True in match:
         matched_idx = match.index(True)
