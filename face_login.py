@@ -10,6 +10,7 @@ def login_user(logger):
 
     known_encodings = []
     known_names = []
+    
     with open("encodings.pkl", "rb") as f:
         while True:
             try:
