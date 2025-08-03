@@ -2,6 +2,7 @@ import face_recognition
 import cv2
 import pickle
 import os
+
 def login_user(logger):
     if not os.path.exists("encodings.pkl"):
         print("[ERROR] No registered users found.")
