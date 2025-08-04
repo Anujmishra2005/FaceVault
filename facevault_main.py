@@ -5,7 +5,6 @@ import face_login
 import emotion_detector
 from logger import Logger
 from utils import menu_ui
-
 if __name__ == "__main__":
     logger = Logger()
     while True:
